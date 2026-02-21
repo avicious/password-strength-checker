@@ -28,7 +28,7 @@ The password strength is calculated based on 5 specific requirements:
 | 3 - 4 | **Medium** | Orange (#fe804d) |
 | 5 | **Strong** | Green (#3fbb60) |
 
-## 🛠️ Installation
+## 🛠️ Installation & Usage
 
 1. **Install dependencies:**
    This component uses [Lucide React](https://lucide.dev/) for icons.
@@ -38,3 +38,18 @@ The password strength is calculated based on 5 specific requirements:
 
 2. **Add the Component:**
     Copy the `App.jsx` code into your project and ensure your CSS includes the necessary classes for styling.
+
+```jsx
+import React from 'react';
+import PasswordChecker from './PasswordChecker';
+
+const App = () => {
+  return (
+    <div className="app-wrapper">
+      <PasswordChecker />
+    </div>
+  );
+};
+
+export default App;
+```
