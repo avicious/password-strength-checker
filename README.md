@@ -37,4 +37,4 @@ The password strength is calculated based on 5 specific requirements:
    ```
 
 2. **Add the Component:**
-    Copy the *App.jsx* code into your project and ensure your CSS includes the necessary classes for styling.
+    Copy the `App.jsx` code into your project and ensure your CSS includes the necessary classes for styling.
