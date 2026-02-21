@@ -69,7 +69,11 @@
   position: relative;
 }
 
-
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 
 .toggle-btn svg {
   display: block;
