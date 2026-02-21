@@ -3,8 +3,6 @@ import { Eye, EyeClosed } from "lucide-react";
 
 const App = () => {
   const [password, setPassword] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [progress, setProgress] = useState("");
   const [hidePassword, setHidePassword] = useState(true);
 
   const strengthInfo = useMemo(() => {
@@ -33,41 +31,6 @@ const App = () => {
 
     return { score, label, color };
   }, [password]);
-
-  // const getActiveColor = (type) => {
-  //   if (type === "Strong") return "#3fbb60";
-  //   if (type === "Medium") return "#fe804d";
-  //   return "#ff0054";
-  // };
-
-  // const handlePassword = (passwordValue) => {
-  //   const strengthChecks = {
-  //     length: 0,
-  //     hasUpperCase: false,
-  //     hasLowerCase: false,
-  //     hasNumbers: false,
-  //     hasSpecialChar: false,
-  //   };
-
-  //   strengthChecks.length = passwordValue.length >= 8 ? true : false;
-  //   strengthChecks.hasUpperCase = /[A-Z]+/.test(passwordValue);
-  //   strengthChecks.hasLowerCase = /[a-z]+/.test(passwordValue);
-  //   strengthChecks.hasNumbers = /[0-9]+/.test(passwordValue);
-  //   strengthChecks.hasSpecialChar = /[^A-Za-z0-9]+/.test(passwordValue);
-
-  //   let verifiedList = Object.values(strengthChecks).filter((value) => value);
-
-  //   let strength =
-  //     verifiedList.length === 5
-  //       ? "Strong"
-  //       : verifiedList.length >= 2
-  //         ? "Medium"
-  //         : "Weak";
-
-  //   setPassword(passwordValue);
-  //   setProgress(`${(verifiedList.length / 5) * 100}%`);
-  //   setMessage(strength);
-  // };
 
   return (
     <div className="container">
