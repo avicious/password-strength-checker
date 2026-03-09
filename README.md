@@ -2,7 +2,7 @@
 
 A lightweight, accessible, and performant React component that provides real-time feedback on password complexity. It features a dynamic progress bar, visual strength indicators, and a visibility toggle.
 
-## 🚀 Features
+## Features
 
 * **Real-time Analysis:** Instant feedback as the user types.
 * **Visual Progress Bar:** Smooth CSS transitions for width and color changes.
@@ -10,7 +10,7 @@ A lightweight, accessible, and performant React component that provides real-tim
 * **Accessibility (a11y):** Uses semantic buttons, ARIA labels, and `aria-live` for screen readers.
 * **Optimized Performance:** Uses `useMemo` to handle strength calculations without unnecessary re-renders.
 
-## 📊 Strength Criteria
+## Strength Criteria
 
 The password strength is calculated based on 5 specific requirements:
 
@@ -28,7 +28,7 @@ The password strength is calculated based on 5 specific requirements:
 | 3 - 4 | **Medium** | Orange (#fe804d) |
 | 5 | **Strong** | Green (#3fbb60) |
 
-## 🛠️ Installation
+## Installation
 
 1. **Install dependencies:**
    This component uses [Lucide React](https://lucide.dev/) for icons.
@@ -39,7 +39,7 @@ The password strength is calculated based on 5 specific requirements:
 2. **Add the Component:**
     Copy the code into your project and ensure your CSS includes the necessary classes for styling.
 
-## 📦 Usage
+## Usage
 
 ```jsx
 import PasswordChecker from './components/PasswordChecker';
