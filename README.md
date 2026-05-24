@@ -2,6 +2,10 @@
 
 A lightweight, accessible, and performant React component that provides real-time feedback on password complexity. It features a dynamic progress bar, visual strength indicators, and a visibility toggle.
 
+## Live Demo
+
+**Check out the live version of this project here:** [avicious.github.io/password-strength-checker/](https://avicious.github.io/password-strength-checker/)
+
 ## Features
 
 * **Real-time Analysis:** Instant feedback as the user types.
